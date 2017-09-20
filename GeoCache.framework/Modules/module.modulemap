@@ -1,0 +1,11 @@
+framework module GeoCache {
+  umbrella header "GeoCache.h"
+
+  export *
+  module * { export * }
+}
+
+module GeoCache.Swift {
+    header "GeoCache-Swift.h"
+    requires objc
+}
